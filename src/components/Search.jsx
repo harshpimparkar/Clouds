@@ -7,7 +7,7 @@ export default function Search({search, setSearch, handleSearch }) {
       <input
         type="text"
         className="city-search"
-        placeholder="enter city name"
+        placeholder="Enter city name"
         name="search"
         value={search}
         onChange={(event) => setSearch(event.target.value)}

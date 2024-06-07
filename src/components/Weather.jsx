@@ -41,7 +41,7 @@ export default function Weather() {
         <div>
           {" "}
           <img
-            src="src\assets\load-35_128.gif"
+            src="src\load-35_128.gif"
             alt="Loading..."
             className="loader"
           />

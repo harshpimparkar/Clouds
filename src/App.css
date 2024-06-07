@@ -53,13 +53,17 @@
   flex:center;
   justify-content:space-around;
   align-items:center;
-  padding: 10px;
+  padding: 18px;
+  font-size:20px;
+  font-weight:500;
   margin-inline-start: 20px auto;
   inline-size:30vw;
   border:none;
-  border-radius:5px;
+  border-radius:10px;
   background-color:#cae5f7;
   color:#112733;
+  margin-right: 10px;
+
 }
 .header{
   gap:7px;
@@ -81,4 +85,6 @@
 
 .loader{
   mx:auto;
+  width:4rem;
+  height:4rem;
 }

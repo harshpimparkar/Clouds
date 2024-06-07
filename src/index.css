@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 
 :root {
-  font-family: "Nunito", sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-optical-sizing: auto;
   line-height: 1.5;
   font-weight: 400;
@@ -48,13 +50,15 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 1.2em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  border-radius:10px;
+  outline:none;
 }
 button:hover {
   border-color: #897656;
