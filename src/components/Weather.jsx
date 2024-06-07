@@ -39,7 +39,7 @@ export default function Weather() {
       />
       {loading ? (
         <div>
-          {" "}
+          {"Loading.... "}
         </div>
       ) : (
         <div className="city-name">
