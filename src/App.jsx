@@ -1,6 +1,5 @@
 import './App.css'
 import Weather from "./components/Weather.jsx"
-import Bottom from "./components/Bottom.jsx"
 function App() {
 
   return (
