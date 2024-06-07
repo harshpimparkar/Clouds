@@ -1,0 +1,84 @@
+#root {
+  max-inline-size: auto;
+   margin: 10px; */
+   padding: 2px; */
+   /* text-align: center;  */
+}
+
+.logo {
+  block-size: 2em;
+  will-change: filter;
+  transition: filter 50ms;
+  padding:10px 0px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 0.5em #cae5f7);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.search-engine{
+  display:flex;
+  flex:center;
+  justify-content:center;
+  align-items:center;
+  margin-block-end:30px;
+  margin-block-start:5px;
+}
+
+.search-engine input{
+  display:flex;
+  flex:center;
+  justify-content:space-around;
+  align-items:center;
+  padding: 10px;
+  margin-inline-start: 20px auto;
+  inline-size:30vw;
+  border:none;
+  border-radius:5px;
+  background-color:#cae5f7;
+  color:#112733;
+}
+.header{
+  gap:7px;
+}
+
+.footer{
+  margin-block-start:100px;
+  display:flex;
+  flex:center;
+
+} 
+.weather-info{
+  display:flex;
+  flex:center;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+} 
+
+.loader{
+  display:flex;
+  justify-content:center;
+}

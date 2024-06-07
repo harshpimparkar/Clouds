@@ -1,0 +1,15 @@
+import './App.css'
+import Weather from "./components/Weather.jsx"
+import Bottom from "./components/Bottom.jsx"
+function App() {
+
+  return (
+    <>
+      <h1 className='header'> <img src="src\assets\icons8-sun.svg" alt="logo" height="50" width="50" draggable='false'className='logo'/>Clouds</h1>
+      <Weather/>
+
+    </>
+  )
+}
+
+export default App
