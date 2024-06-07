@@ -40,11 +40,6 @@ export default function Weather() {
       {loading ? (
         <div>
           {" "}
-          <img
-            src="src\load-35_128.gif"
-            alt="Loading..."
-            className="loader"
-          />
         </div>
       ) : (
         <div className="city-name">
