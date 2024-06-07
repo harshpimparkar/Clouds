@@ -70,7 +70,7 @@
   flex:center;
 
 } 
-.weather-info{
+.weather-card{
   display:flex;
   flex:center;
   justify-content:center;
@@ -79,6 +79,5 @@
 } 
 
 .loader{
-  display:flex;
-  justify-content:center;
+  mx:auto;
 }
