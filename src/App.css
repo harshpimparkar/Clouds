@@ -6,7 +6,7 @@
 }
 
 .logo {
-  block-size: 2em;
+  block-size: 4em;
   will-change: filter;
   transition: filter 50ms;
   padding:10px 0px;
