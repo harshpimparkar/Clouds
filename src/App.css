@@ -1,9 +1,11 @@
 #root {
   max-inline-size: auto;
-   margin: 10px; */
+   margin: 1px; */
    padding: 2px; */
    /* text-align: center;  */
+   
 }
+
 
 .logo {
   width:4rem;
@@ -13,6 +15,9 @@
   padding:10px 0px;
 }
 .logo:hover {
+  filter: drop-shadow(0 0 0.5em #cae5f7);
+}
+.header:hover {
   filter: drop-shadow(0 0 0.5em #cae5f7);
 }
 
@@ -70,12 +75,6 @@
   gap:7px;
 }
 
-.footer{
-  margin-block-start:100px;
-  display:flex;
-  flex:center;
-
-} 
 .weather-card{
   display:flex;
   flex:center;
@@ -88,4 +87,21 @@
   mx:auto;
   width:4rem;
   height:4rem;
+}
+
+.footer{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+font-family: "Kanit", sans-serif;
+font-weight: 100;
+font-style: normal;
+line-height:1rem;
+background-color:#001e36;
+width:100%;
+margin-top:30%;
+top:0;
+position:fixed;
+mx: auto;
 }

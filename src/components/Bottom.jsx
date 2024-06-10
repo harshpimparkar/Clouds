@@ -1,9 +1,10 @@
-import React from 'react'
+
 
 export default function Bottom() {
   return (
     <div className='footer'>
-      Footer
+      <h3>HARSH PIMPARKAR</h3>
+      <h4>2024</h4>
     </div>
   )
 }

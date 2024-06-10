@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   font-family: "Archivo Black", sans-serif;
   font-optical-sizing: auto;
-  line-height: 1.5;
+  line-height: 2;
   font-weight: 400;
   width:100vw;
   color-scheme: light dark;
@@ -65,6 +65,14 @@ button:hover {
 }
 button:focus,
 button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+header:hover {
+  border-color: #897656;
+}
+header:focus,
+header:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
